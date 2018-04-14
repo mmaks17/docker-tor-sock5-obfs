@@ -1,0 +1,11 @@
+tor:
+ restart: always
+
+ build: ./
+
+ ports:
+  - 5040
+  - 5353
+  - 9050
+  - 9151
+
