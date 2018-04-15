@@ -11,4 +11,4 @@ RUN chmod +x /usr/local/bin/obfs4proxy
 USER toranon
 ENTRYPOINT ["/usr/bin/tor"]
 
-EXPOSE 9053 5353 9050 9040 9051
+EXPOSE 5353 9050 9040 9051
